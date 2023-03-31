@@ -18,6 +18,7 @@ public class Main {
                     System.out.println("Правильно!");
                     System.exit(0);
                 case HELP:{
+                    attempt++;
                     if (useHelp)
                         System.out.println("Подсказка сработала!");
                     else

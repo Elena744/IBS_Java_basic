@@ -9,7 +9,7 @@ public class Main {
         String[] words = line.split(" ");
         int count = 0;
         for (String word:words){
-            if (word.matches("\\w+")){
+            if (word.matches("[A-Za-z]+")){
                 count++;
                 System.out.print(word + "\t");
             }
